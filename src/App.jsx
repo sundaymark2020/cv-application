@@ -1,7 +1,14 @@
-import React from 'react'
+
+import GeneralInfo from './components/generalinfo'
+import { useState } from 'react'
 
 export default function App() {
+  const [isEditing, setIsEditing] = useState(true);
+  const [general, setGeneral] = useState ({name: '',email: '',phone: '' })
   return (
-    <div><h1>Hello world</h1></div>
+    <div>
+      <GeneralInfo/>
+
+    </div>
   )
 }
