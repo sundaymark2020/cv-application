@@ -7,7 +7,7 @@ export default function Generalinfo({ data, isEditing, onChange }) {
   }
 
   function changetel(e) {
-    onchange('phone',e.target.value)
+    onChange('phone',e.target.value)
     
   }
 
