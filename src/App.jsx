@@ -43,5 +43,6 @@ export default function App() {
     </div>
      
   );
+  <EducationalExperience/>
  
 }
