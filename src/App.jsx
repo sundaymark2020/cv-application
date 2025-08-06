@@ -2,7 +2,7 @@ import { useState } from "react";
 import GeneralInfo from "./components/GeneralInfo"; 
 import EducationalExperience from "./components/EducationalExperience";
 import PracticalExperience from "./components/PracticalExperience";
-
+import './Styles.css'
 
 export default function App() {
   const [general, setGeneral] = useState({

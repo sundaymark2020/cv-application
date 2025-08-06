@@ -15,7 +15,7 @@ export default function GeneralInfo({ data, isEditing, onChange }) {
 
   return (
     <div>
-      <h1>General Information</h1>
+      <h1 className="general">General Information</h1>
 
       {isEditing ? (
         <>
