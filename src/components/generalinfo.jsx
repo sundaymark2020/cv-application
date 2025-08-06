@@ -1,5 +1,3 @@
-
-
 export default function GeneralInfo({ data, isEditing, onChange }) {
   function changeName(e) {
     onChange("name", e.target.value);
